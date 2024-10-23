@@ -1,4 +1,0 @@
-Tämä on ensimmäinen tiedosto.
-
-
-Koitetaan muutosta. Tällä kertaa git add -p -komennon kokeilua.
