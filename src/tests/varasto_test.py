@@ -31,7 +31,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.saldo, 8)
     
     def test_lisaa_varastoon_liikaa(self):
-        self.varasto.lisaa_varastoon(11)
+        self.varasto.lisaa_varastoon(12)
 
         self.assertAlmostEqual(self.varasto.saldo, 10)
 
