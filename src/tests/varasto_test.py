@@ -12,7 +12,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_virheellinen_alkusaldo(self):
         varasto = Varasto(10, -10)
-        self.assertAlmostEqual(varasto.tilavuus, 0)
+        self.assertAlmostEqual(varasto.saldo, 0)
 
     def test_lisaa_varastoon_negatiivinen(self):
         self.varasto.lisaa_varastoon(-2)
