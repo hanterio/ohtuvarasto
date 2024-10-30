@@ -2,6 +2,10 @@ from varasto import Varasto
 
 
 def main():
+    if True:
+        if True:
+            if True:
+                pass
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
